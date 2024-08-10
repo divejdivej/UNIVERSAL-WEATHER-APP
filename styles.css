@@ -1,50 +1,50 @@
 body {
-    font-family: Lucida Console, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; 
+    background: url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-jplenio-1118873.jpg&fm=jpg') center/cover no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 .container {
     max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 105px auto 0;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5); 
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    margin-top: 105px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 h1 {
     font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 input[type="text"] {
-    width: 100%;
+    width: calc(100% - 22px);
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 .weather-info {
     margin-top: 20px;
 }
-body {
-    font-family: Arial, sans-serif;  
-    background-image: url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-jplenio-1118873.jpg&fm=jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; 
-    margin: 0;
-    padding: 0; 
-  }
